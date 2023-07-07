@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Piano</title>
+</head>
+<body>
+    <main class="piano">
+        <div class="piano_body">
+            <div class="piano_speaker"></div>
+            <div class="piano_interface">
+                <div class="piano_controls">
+                    <h4 class="piano_heading">PIANO</h4>
+                    <label for="Letter Notes"><input type="radio" class="piano_control_option" name="control" value="Letter Notes">Letter Notes</label>
+                    <label for="Keyboard"><input type="radio" class="piano_control_option" name="control" value="Keyboard">Keyboard</label>
+                    <label for="None"><input type="radio" class="piano_control_option" name="control" value="None">None</label>
+                </div>
+                <div class="piano_autoplay">
+                    <h4 class="piano_heading">AUTOPLAY</h4>
+                    <select class="piano_song_list">
+                        <option value="1">Jingle Bells</option>
+                        <option value="2">Happy Birthday</option>
+                    </select>
+                    <label>Tempo:
+                        <select name="" id="" class="piano_tempo">
+                            <option value="1">Slow</option>
+                            <option value="1">Normal</option>
+                            <option value="1">Fast</option>
+                        </select>
+                    </label>
+                    <button class="piano_play-btn">Play</button>
+                </div> 
+            </div>
+            <div class="piano_speaker"></div>
+        </div>
+        <div class="piano_keyboard"></div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
